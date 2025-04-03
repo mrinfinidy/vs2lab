@@ -179,6 +179,8 @@ Im Labor nutzen wir teilweise Jupyter Notebooks zur Erklärung der Beispiele ode
 
 Jupyter wird im VS2Lab Repository automatisch installiert, wenn per ``pipenv install`` die Abhängigkeiten installiert werden. Sie starten den Jupyter notebook Server wie folgt:
 
+Note: When running jupyter locally, install uv and run `uv run --with jupyter jupyter lab`. There is a [bug](https://github.com/jupyter/notebook/issues/7150) in jupyter-lab
+
 ```bash
 cd vs2lab # angenommen hier liegt das vs2lab Repo
 pipenv run jupyter notebook --ip 127.0.0.1

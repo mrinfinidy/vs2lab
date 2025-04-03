@@ -16,5 +16,13 @@ in pkgs.mkShell {
     unstable.python312Packages.pylint
     unstable.python312Packages.autopep8
     unstable.python312Packages.rope
+    unstable.nodejs_22
+    unstable.python312Packages.black
+    unstable.python312Packages.yapf
+    unstable.python312Packages.flake8
+    unstable.python312Packages.mypy
+    unstable.python312Packages.pydocstyle
+    unstable.python312Packages.bandit
+    unstable.uv
   ];
 }
